@@ -14,7 +14,8 @@ chmod +x image_colours.py colour_search.py
 
 echo "[Info] Copying Gazebo model files..."
 mkdir -p ~/.gazebo/models/
-cp -r ../models/line_following_track ~/.gazebo/models/
+cd ../models/
+cp -r ./line_following_track ~/.gazebo/models/
 
 echo "[Info] Running catkin_make (for good measure)..."
 cd ~/catkin_ws/
