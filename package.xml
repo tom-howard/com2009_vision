@@ -6,6 +6,9 @@
 
   <maintainer email="t.howard@sheffield.ac.uk">Tom Howard</maintainer>
 
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+  
   <url type="website">https://github.com/tom-howard/com2009_vision</url>
 
   <buildtool_depend>catkin</buildtool_depend>
